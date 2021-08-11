@@ -1,0 +1,98 @@
+body{
+	background-color: #333;
+}
+
+.box {
+  margin: auto;
+  width: 60%;
+  border: 3px solid Black;
+  padding: 10px;
+  background-color: #F3CA40;
+  color: white;
+}
+
+#container{
+	background-color: #F2A541;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.bground{
+	height:270%;
+	width:100%;
+	position:absolute ;  
+	background:radial-gradient(#000,#333);
+}
+
+.simple{
+	background-color: #F3CA40;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.pn{
+	background-color: #F3CA40;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.pythag{
+	background-color: #F3CA40;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.circle{
+	background-color: #F3CA40;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.rectangle{
+	background-color: #F3CA40;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.triangle{
+	background-color: #F3CA40;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.cube{
+	background-color: #F3CA40;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.sphere{
+	background-color: #F3CA40;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.cylinder{
+	background-color: #F3CA40;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.prism{
+	background-color: #F3CA40;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}

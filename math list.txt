@@ -1,0 +1,25 @@
+add/subtract/divide/multiply   |$
+
+make number negative/positive  |$
+
+pythagorean theorem			   |$
+
+area of a circle		       |$
+
+area of a square			   |$
+
+area of a triangle			   |$
+
+volume of a cube			   |$
+
+volume of a sphere			   |$
+
+volume of a circular prism	   |$
+
+volume of a triangular prism   |$
+
+NOTES
+make variables absolute value in js to prevent failure
+pictures
+boxes
+lists

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title> Personal Project </title>
+<style>
+
+h1 {text-align: center;}
+h2 {text-align: center;}
+p {text-align: center;}
+div {text-align: center;}
+form {text-align: center;}
+
+
+</style>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+
+<section class="bground">
+<div id="container">
+
+<div class="box"> <h1>  Popular Math Functions </h1></div>
+<br>
+<section class="simple">
+<table>
+<tr><td style= "padding: 0px 150px 0px  150px;">
+<h2><u> Simple Calculator </u></h2><br>
+<form> 
+	Select Your Operation:
+	<select id="operation">
+		<option value="add"> Add </option>
+		<option value="sub"> Subtract </option>
+		<option value="mult"> Multiply </option>
+		<option value="div"> Divide </option>
+	</select><br><br>
+
+	Number 1: <input type="text" id= "first" size="10"><br><br>
+	Number 2: <input type="text" id= "second" size="10"><br><br>
+	
+	<button type="button" onclick="calculator()"> Calculate </button>
+</form>
+<p><div id="result2"></div><br> </p></td>
+<td> <img src="calc.png" style="width:100px; height:100px"> </td>
+</tr>
+</table>
+</section>
+
+<hr style="height:2px;border-width:0;color:#F08A4B;background-color:#F08A4B">
+
+
+<section class="pn">
+<table>
+<tr><td style= "padding: 0px 100px 0px  150px;">
+<h2><u> Positive/Negative </u></h2>
+<form>
+	Enter a number you would like to <br>make positive or negative:
+	<input type="text" id= "pos" size="10"><br><br>
+	
+	<button type="button" onclick="flip()"> Flip! </button>
+</form>
+<p><div id="result3"></div><br></p></td>
+<td> <img src="posnegative.png" style="width:200px; height:100px;"> </td>
+</tr>
+</table>
+</section>
+
+<hr style="height:2px;border-width:0;color:#F08A4B;background-color:#F08A4B">
+
+
+<section class="pythag">
+<table>
+<tr><td style= "padding: 0px 100px 0px  150px;">
+<h2><u> Pythagorean Theorem </u></h2>
+<form>
+	Enter length of side A of the triangle:
+	<input type="text" id= "sideA" size="10"><br><br>
+	Enter length of side B of the triangle:
+	<input type="text" id= "sideB" size="10"><br><br>
+	
+	<button type="button" onclick="hypotenuse()"> Find Hypotenuse </button>
+</form>
+<p><div id="result4"></div><br></p></td>
+<td> <img src="pythag.png" style="width:150px; height:150px"> </td>
+</tr>
+</table>
+</section>
+
+<hr style="height:2px;border-width:0;color:#F08A4B;background-color:#F08A4B">
+
+
+<section class="circle">
+<table>
+<tr><td style= "padding: 0px 150px 0px  150px;">
+<h2><u> Area of a Circle </u></h2>
+<form>
+	Enter the radius of a circle
+	<input type="text" id= "uCircle" size="10"><br><br>
+	
+	<button type="button" onclick="circle()"> Find Area </button>
+</form>
+
+<p><div id="result5"></div><br></p></td>
+<td> <img src="circle.png" style="width:150px; height:100px"> </td>
+</tr>
+</table>
+</section>
+
+<hr style="height:2px;border-width:0;color:#F08A4B;background-color:#F08A4B">
+
+
+<section class="rectangle">
+<table>
+<tr><td style= "padding: 0px 100px 0px  150px;">
+<h2><u> Area of a Rectangle </u></h2>
+<form>
+	Enter the length of your rectangle
+	<input type="text" id= "squareAL" size="10"><br><br>
+	Enter the width of your rectangle
+	<input type="text" id= "squareAW" size="10"><br><br>
+	
+	<button type="button" onclick="square()"> Find Area </button>
+</form>
+
+<p><div id="result6"></div><br></p></td>
+<td> <img src="rectangle.png" style="width:200px; height:100px"> </td>
+</tr>
+</table>
+</section>
+
+<hr style="height:2px;border-width:0;color:#F08A4B;background-color:#F08A4B">
+
+
+<section class="triangle">
+<table>
+<tr><td style= "padding: 0px 100px 0px  150px;">
+<h2><u> Area of a Triangle </u></h2>
+<form>
+	Enter the length of the base of your triangle
+	<input type="text" id= "triangleAL" size="10"><br><br>
+	Enter the height of your triangle
+	<input type="text" id= "triangleAH" size="10"><br><br>
+	
+	<button type="button" onclick="triangle()"> Find Area </button>
+</form>
+
+<p><div id="result7"></div><br></p></td>
+<td> <img src="triangle.png" style="width:200px; height:100px"> </td>
+</tr>
+</table>
+</section>
+
+<hr style="height:2px;border-width:0;color:#F08A4B;background-color:#F08A4B">
+
+
+<section class="cube">
+<table>
+<tr><td style= "padding: 0px 100px 0px  150px;">
+<h2><u> Volume of a Cube </u></h2>
+<form>
+	Enter the length of any side on a Cube
+	<input type="text" id= "cubeS" size="10"><br><br>
+
+	<button type="button" onclick="cube()"> Find Volume </button>
+</form>
+
+<p><div id="result8"></div><br></p></td>
+<td> <img src="cube.png" style="width:100px; height:100px"> </td>
+</tr>
+</table>
+</section>
+
+<hr style="height:2px;border-width:0;color:#F08A4B;background-color:#F08A4B">
+
+
+<section class="sphere">
+<table>
+<tr><td style= "padding: 0px 150px 0px  150px;">
+<h2><u> Volume of a Sphere </u></h2>
+<form>
+	Enter the Radius of the Sphere
+	<input type="text" id= "sphereR" size="10"><br><br>
+
+	<button type="button" onclick="sphere()"> Find Volume </button>
+</form>
+
+<p><div id="result9"></div><br></p></td>
+<td> <img src="sphere.png" style="width:150px; height:150px"> </td>
+</tr>
+</table>
+</section>
+
+<hr style="height:2px;border-width:0;color:#F08A4B;background-color:#F08A4B">
+
+
+<section class="cylinder">
+<table>
+<tr><td style= "padding: 0px 100px 0px  150px;">
+<h2><u> Volume of a Cylinder </u></h2>
+<form>
+	Enter the radius of the base
+	<input type="text" id= "cylinderR" size="10"><br><br>
+	Enter the height of the cylinder
+	<input type="text" id= "cylinderH" size="10"><br><br>
+	
+	<button type="button" onclick="cylinder()"> Find Area </button>
+</form>
+
+<p><div id="result10"></div><br></p></td>
+<td> <img src="cylinder.png" style="width:200px; height:100px"> </td>
+</tr>
+</table>
+</section>
+
+<hr style="height:2px;border-width:0;color:#F08A4B;background-color:#F08A4B">
+
+
+<section class="prism">
+<table>
+<tr><td style= "padding: 0px 100px 0px  150px;">
+<h2><u> Volume of a Square Prism </u></h2>
+<form>
+	Enter the length of one of the sides of the base
+	<input type="text" id= "prismL" size="10"><br><br>
+	Enter the height of the prism
+	<input type="text" id= "prismH" size="10"><br><br>
+	
+	<button type="button" onclick="prism()"> Find Volume </button>
+</form>
+
+<p><div id="result11"></div><br></p></td>
+<td> <img src="prism.png" style="width:200px; height:100px"> </td>
+</tr>
+</table>
+
+</section>
+
+<p><br></p>
+</div>
+</section>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+</body>
+<script src="Personal project.js"></script>
+
+</html>
+
+
+
+
+
+
+
+
+
+
